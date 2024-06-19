@@ -7,23 +7,23 @@ function App() {
       <main
         className='h-[340px] w-[60rem] bg-offWhite p-9'
       >
-        <form action="" className='flex'>
+        <form action="" className='flex gap-3'>
           <div
-            className='flex'
+            className='flex flex-col'
           >
             <label htmlFor="day">Day</label>
             <input type="number" className="border border-lightGrey" />
           </div>
-          <div>
+          <div className='flex flex-col'>
             <label htmlFor="month">MONTH</label>
             <input type="number" className="border border-lightGrey" />
           </div>
-          <div>
+          <div className='flex flex-col'>
             <label htmlFor="Year">YEAR</label>
             <input type="number" className="border border-lightGrey" />
           </div>
           <hr />
-          <button type="submit" className='p-2 bg-slate-800 rounded-md'>
+          <button type="submit" className='py-2 px-4 bg-black text-white rounded'>
             Submit
           </button>
         </form>
